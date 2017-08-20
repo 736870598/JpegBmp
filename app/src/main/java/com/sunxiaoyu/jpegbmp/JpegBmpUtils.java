@@ -22,7 +22,7 @@ public class JpegBmpUtils {
 
 
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("jpeg_sxy");
     }
 
     public static native String nativeCompressBmp(Bitmap bmp, int w, int h, int quality, String path);
