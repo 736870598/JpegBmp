@@ -1,4 +1,4 @@
-# JpegBmp
+# JpegBmpDemo
 利用jpeg库对图片进行压缩，jpeg库主要利用哈夫曼算法进行压缩处理，对于图片来说，压缩度高，失真度小。
 
 ### cmakelist模板：
