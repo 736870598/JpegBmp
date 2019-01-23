@@ -11,18 +11,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="选取图片" />
 
     <TextView
+        android:lineSpacingExtra="5dp"
         android:id="@+id/textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <ImageView
-        android:id="@+id/imageview"
-        android:scaleType="fitCenter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </LinearLayout>
