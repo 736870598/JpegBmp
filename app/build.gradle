@@ -36,5 +36,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
 //    compile project(':jpegcompress')
-    compile(name: 'jpegcompress-release', ext: 'aar')
+//    compile(name: 'jpegcompress-release', ext: 'aar')
+    compile 'com.github.736870598:JpegBmp:v1.0'
 }

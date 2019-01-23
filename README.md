@@ -10,6 +10,22 @@ jpegcompress-release.aar
 ### 压缩类：
 ImageCompress
 
+### 使用：
+Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+    		repositories {
+    			...
+    			maven { url 'https://jitpack.io' }
+    		}
+    }
+    	
+Add the dependency
+
+    dependencies {
+            implementation 'com.github.736870598:JpegBmp:v1.0'
+    }
+
 ### cmakelist模板：
 
     cmake_minimum_required(VERSION 3.4.1)
